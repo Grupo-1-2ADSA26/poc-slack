@@ -13,7 +13,7 @@ public class SlackController {
         this.slackService = slackService;
     }
 
-    @GetMapping("/slack/test")
+    @GetMapping("/slack")
     public String testarSlack() {
 
         slackService.enviarMensagem(
